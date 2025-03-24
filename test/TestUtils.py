@@ -28,7 +28,7 @@ class TestUtils:
         hostName = os.environ.get('HOSTNAME')
         attemptId = os.environ.get('ATTEMPT_ID')
 
-        test_results = TestResults(json.dumps(test_case_results), customData)
+        test_results = TestResults(json.dumps(test_case_results), customData, hostName, attemptId)
 
         final_result = json.dumps(test_results)
 
