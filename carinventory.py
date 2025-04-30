@@ -25,8 +25,8 @@ def search_by_budget(inventory, max_price):
         list: List of cars within the budget.
     """
     # TODO: Implement budget filtering logic
-    pass  # Placeholder for the function body
-
+    pass  
+    
 # Function 2: Save inventory to a file
 def save_inventory(inventory, filename="car_inventory.json"):
     """
@@ -40,7 +40,7 @@ def save_inventory(inventory, filename="car_inventory.json"):
         str: Filename after successful save.
     """
     # TODO: Implement file saving logic
-    pass  # Placeholder for the function body
+    pass 
 
 # Execute the functions
 if __name__ == "__main__":
