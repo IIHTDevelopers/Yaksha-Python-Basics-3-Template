@@ -14,12 +14,12 @@ def analyze_marks(marks):
         tuple: Average, highest, and lowest marks.
     """
     # TODO: Implement logic to calculate average, max, and min marks
-    pass  # Placeholder for the function body
-
+    pass  
+    
 # Function 2: Classify Grades
 def classify_grades(marks):
     """
-    Classifies students based on their marks.
+    Classifies grades based on their marks.
 
     Args:
         marks (numpy.array): Array of student marks.
@@ -28,12 +28,11 @@ def classify_grades(marks):
         list: List of grades corresponding to each mark.
     """
     # TODO: Implement logic to classify grades
-    pass  # Placeholder for the function body
-
+    pass  
 # Preset student marks for 5 students
 student_marks = np.array([78, 85, 92, 88, 76])
 
 # Execute the functions
 if __name__ == "__main__":
     # TODO: Call analyze_marks and classify_grades and display the results
-    pass  # Placeholder for the execution logic
+    pass  
