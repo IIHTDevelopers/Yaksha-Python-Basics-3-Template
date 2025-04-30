@@ -3,18 +3,16 @@
 # Function 1: Student Names
 def student_names():
     """
-    Stores and displays a list of student names.
+    add and return a list of student names.
 
     Returns:
         list: List of student names.
     """
     # Sample Dataset
     students = ["John", "Emma", "Sophia", "Michael", "Daniel"]
-    students.append("Olivia")  # Adding a new student
-
-    # TODO: Implement logic to display and return student names
-    pass  # Placeholder for the function body
-
+   
+    # Placeholder for the function body
+    pass  
 
 # Function 2: Student Courses
 def student_courses():
@@ -32,26 +30,23 @@ def student_courses():
         "Michael": ("Math", "Computer Science"),
         "Daniel": ("Physics", "Chemistry")
     }
-    courses["Olivia"] = ("Biology", "History")  # Adding a new student course
-
-    # TODO: Implement logic to display and return student courses
-    pass  # Placeholder for the function body
-
+    
+    # Placeholder for the function body
+    pass  
 
 # Function 3: Unique Subjects
 def unique_subjects():
     """
-    Stores and displays unique subjects from all students using a set.
+    Stores and returns unique subjects.
 
     Returns:
         set: Set of unique subjects.
     """
     # Sample Dataset
     all_subjects = {"Math", "Physics", "Biology", "Chemistry", "English", "History", "Computer Science", "Math"}
-    all_subjects.add("Economics")  # Adding a new subject
-
-    # TODO: Implement logic to display and return unique subjects
-    pass  # Placeholder for the function body
+   
+   # Placeholder for the function body 
+    pass 
 
 
 # Execute the functions
