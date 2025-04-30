@@ -201,8 +201,7 @@ class TestStudentMarksAnalysis(unittest.TestCase):
             else:
                 self.test_obj.yakshaAssert("TestClassifyGrades", False, "functional")
                 print("TestClassifyGrades = Failed")
-                print("Expected Grades:", self.expected_grades)
-                print("Actual Grades:", result)
+                
         except Exception as e:
             self.test_obj.yakshaAssert("TestClassifyGrades", False, "functional")
             print(f"TestClassifyGrades = Failed ")
